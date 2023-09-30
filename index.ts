@@ -7,5 +7,5 @@ const server = Bun.serve({
         return new Response(body);
     },
 });
-//cahnge
+//change
 console.log(`Listening on http://localhost:${server.port} ...`);
